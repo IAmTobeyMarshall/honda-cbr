@@ -1,0 +1,19 @@
+:root{ 
+    --main-color: #E76F51;
+    --txt-white: #fff;
+}
+/* header start */
+.head-section{
+    background: #264653;
+}
+.btn-login{
+    color: var(--txt-white);
+    background-color: var(--main-color);
+    border: none;
+    transition: .15s ease-in-out;
+}
+.btn-login:hover{
+    color: var(--txt-white);
+    background: red;
+}
+/* header end */
